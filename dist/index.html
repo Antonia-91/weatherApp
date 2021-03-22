@@ -6,8 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responvie weather app</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <main>
+      <h1 class="offscreen">
+        Responsive Weather App Powered by the Open Weather A P I
+      </h1>
+      <section id="searchBar" class="searchBar">
+        <form id="searchBar__form" class="searchBar__form" role="search">
+          <label for="searchBar__text" class="offscreen"
+            >Enter a new location</label
+          >
+          <input
+            id="searchBar__text"
+            class="searchBar__text"
+            type="text"
+            role="searchbox"
+            size="40"
+            autocomplete="off"
+            placeholder="City, State, Country"
+          />
+          <button
+            id="searchBar__button"
+            class="searchBar__button button"
+            title="Submit Location"
+            aria-label="Enter Zip Code or City, State, and Country to retreve weather conditions"
+          >
+            <i class="fas fa-search"></i>
+
+            <i class="fas fa-sync fa-spin none"></i>
+          </button>
+        </form>
+      </section>
+      <section id="currentCondition" class="currentCondition"></section>
+      <nav id="navButtons"></nav>
+      <section id="dailyForecast" class="dailyForecast"></section>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
