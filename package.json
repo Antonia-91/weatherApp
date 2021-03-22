@@ -1,0 +1,19 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Responsive Weather app using HTML CSS JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antonia-91/weatherApp.git"
+  },
+  "author": "Antonia Pettersson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Antonia-91/weatherApp/issues"
+  },
+  "homepage": "https://github.com/Antonia-91/weatherApp#readme"
+}
