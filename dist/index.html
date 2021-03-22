@@ -47,9 +47,24 @@
           </button>
         </form>
       </section>
-      <section id="currentCondition" class="currentCondition"></section>
-      <nav id="navButtons"></nav>
-      <section id="dailyForecast" class="dailyForecast"></section>
+      <a href="#currentForecast" class="skip-link"
+        >skip to current Conditions</a
+      >
+      <section
+        id="currentForecast"
+        class="currentForecast fade-in"
+        role="region"
+        aria-labelledby="currentForecast__location"
+      >
+        <h2 id="currentForecast__location" class="currentForecast__location">
+          Current Conditions
+        </h2>
+        <div
+          id="currentForecast__conditions"
+          class="currentForecast__conditions"
+        ></div>
+      </section>
+      <a href="#dailyForecast" class="skip-link">Skip to Six Day Forecast</a>
     </main>
     <script src="index.js"></script>
   </body>
