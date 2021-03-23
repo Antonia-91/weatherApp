@@ -97,7 +97,7 @@
     }
 
     .humidity {
-      //display: none;
+      display: none;
       grid-row: 6 / span 1;
       grid-column: 1 / span 4;
       padding-top: 0.5rem;
@@ -112,7 +112,7 @@
     }
 
     .wind {
-      //display: none;
+      display: none;
       grid-row: 7 / span 1;
       grid-column: 1 / span 4;
       padding-top: 0.5rem;
