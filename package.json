@@ -2,9 +2,9 @@
   "name": "weather-app",
   "version": "1.0.0",
   "description": "Responsive Weather app using HTML CSS JS",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "index.js"
+    "start": "main.js"
   },
   "repository": {
     "type": "git",
